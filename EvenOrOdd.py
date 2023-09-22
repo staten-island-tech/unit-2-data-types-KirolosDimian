@@ -1,5 +1,7 @@
-number = input("Type a Number")
-if number / 2:
+x= 347 % 2
+print (x)
+if x % 2 == 0:
     print("even")
 else:
-    print("wrong")
+    print("odd")
+    
