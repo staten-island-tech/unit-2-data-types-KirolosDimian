@@ -1,3 +1,9 @@
-x=[1,2,3,4,6,8,12,24]
-for i in range:
-24 % x
+def factors(x):
+    print("The factors of" ,x, "are:")
+    for i in range(1,x+1):
+        if x % i ==0:
+            print(i)
+
+number = 34
+
+factors(number)
