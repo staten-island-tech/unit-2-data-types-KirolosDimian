@@ -4,6 +4,6 @@ def factors(x):
         if x % i ==0:
             print(i)
 
-number = 34
+number = 23173
 
 factors(number)
