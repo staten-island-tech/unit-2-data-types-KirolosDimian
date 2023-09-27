@@ -16,3 +16,9 @@ num1=54
 num2=24
 
 print("The Greates Common Factor is", gcf(num1,num2))
+
+If x<5 and x>0:
+    Eastbound traffic
+
+if x>5 and x<10:
+    Westbound Traffic
