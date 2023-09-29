@@ -1,14 +1,9 @@
-def gcf(x,y):
-    if x>y:
-        less = y
-    else:
-        less=x
-    for i in range(less-1,1):
-        if ((x % i==0) and (y % i==0)):
-            gcf=i  
+num=int(input("Please enter a number:"))
+num2=int(input("Please enter another number:"))
+
+def gcf():
+    for i in range (num, 0, -1):
+        if num%i==0 and num2%i==0:
+            print(i)
             max(i)
-
-num1=54
-num2=24
-
-print("The Greates Common Factor is", gcf(num1,num2))
+gcf()
