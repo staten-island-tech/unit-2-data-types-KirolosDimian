@@ -1,4 +1,5 @@
-servicerating=("good")
+##Please only answer with bad, okay, good, or great. It must be written just like that.
+servicerating=input("How was your service today? ")
 if servicerating == ("bad"):
     print("0%")
 if servicerating == ("okay"):
